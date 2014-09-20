@@ -4,9 +4,9 @@
 " Scheme: Banana
 
 " GUI color definitions (original from base 16 are marked *)
-let s:gui00 = "1b1e19"
+let s:gui00 = "272822"
 let s:gui01 = "474e42"
-let s:gui02 = "49483e" " *
+let s:gui02 = "1B1E19"
 let s:gui03 = "75715e" " *
 let s:gui04 = "a59f85" " *
 let s:gui05 = "f8f8f2" " *
@@ -132,8 +132,8 @@ call <sid>hi("Debug",         s:gui08, "", s:cterm08, "", "")
 call <sid>hi("Directory",     s:gui0D, "", s:cterm0D, "", "")
 call <sid>hi("ErrorMsg",      s:gui08, s:gui00, s:cterm08, s:cterm00, "")
 call <sid>hi("Exception",     s:gui08, "", s:cterm08, "", "")
-call <sid>hi("FoldColumn",    "", s:gui01, "", s:cterm01, "")
-call <sid>hi("Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01, "")
+call <sid>hi("FoldColumn",    "", s:gui02, "", s:cterm01, "")
+call <sid>hi("Folded",        s:gui03, s:gui02, s:cterm03, s:cterm01, "")
 call <sid>hi("IncSearch",     s:gui01, s:gui09, s:cterm01, s:cterm09, "none")
 call <sid>hi("Italic",        "", "", "", "", "none")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "")
@@ -162,7 +162,7 @@ call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none")
 call <sid>hi("ColorColumn",   "", s:gui01, "", s:cterm01, "none")
 call <sid>hi("CursorColumn",  "", s:gui01, "", s:cterm01, "none")
-call <sid>hi("CursorLine",    "", s:gui01, "", s:cterm01, "none")
+call <sid>hi("CursorLine",    "", s:gui02, "", s:cterm01, "none")
 call <sid>hi("CursorLineNr",  s:gui03, s:gui01, s:cterm03, s:cterm01, "")
 call <sid>hi("PMenu",         s:gui04, s:gui01, s:cterm04, s:cterm01, "none")
 call <sid>hi("PMenuSel",      s:gui01, s:gui04, s:cterm01, s:cterm04, "")
