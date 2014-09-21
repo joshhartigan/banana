@@ -13,3 +13,7 @@ git clone https://github.com/joshhartigan/banana
 mv banana/banana.vim ~/.vim/colors
 rm -rf banana
 ```
+
+## Preview
+
+![preview](https://github.com/joshharitgan/banana/master/bananavim.gif)
