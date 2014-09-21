@@ -16,4 +16,4 @@ rm -rf banana
 
 ## Preview
 
-![preview](https://github.com/joshharitgan/banana/master/bananavim.gif)
+![preview](https://raw.githubusercontent.com/joshhartigan/banana/master/bananavim.gif)
