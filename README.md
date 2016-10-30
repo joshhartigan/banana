@@ -10,9 +10,11 @@ takes inspiration from [monokai](http://www.monokai.nl/blog/2006/07/15/textmate-
 
 ```
 git clone https://github.com/joshhartigan/banana
-mv banana/banana.vim ~/.vim/colors
+mv banana/colors/banana.vim ~/.vim/colors
 rm -rf banana
 ```
+
+Or use your favourite Vim plugin manager.
 
 ## Preview
 
